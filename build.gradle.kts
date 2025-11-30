@@ -15,6 +15,8 @@ dependencies {
     // Consumers of the starter will provide Spring Boot at runtime,
     // so we keep it as compileOnly to avoid leaking Spring Boot into their dependency tree.
     compileOnly("org.springframework.boot:spring-boot-starter:3.5.4")
+
+    implementation("tools.jackson.module:jackson-module-kotlin:3.0.+")
 }
 
 allprojects {

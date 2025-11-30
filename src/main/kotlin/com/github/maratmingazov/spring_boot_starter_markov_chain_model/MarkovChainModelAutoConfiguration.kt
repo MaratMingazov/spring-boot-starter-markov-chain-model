@@ -1,0 +1,4 @@
+package com.github.maratmingazov.spring_boot_starter_markov_chain_model
+
+class MarkovChainModelAutoConfiguration {
+}
